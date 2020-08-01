@@ -18,11 +18,11 @@ This is a tutorial to learn the basic commands of git. Three functions of git an
 ###### 5. commit files to the working repository (after multiply adding files), from "staged" to "unmodified" status
 `git commit -m "log information, e.g., first commit"`
 ###### 6. connect with your repository, where origin is the default repository name
-`git remote add origin "repository address"`
+`git remote add origin 'repository address'`
 ###### 7. add README.md in your folder, if there already exists a README.md in your repository
 `git pull --rebase origin master`
 ###### 8. push codes to github, master is our default first branch
-`git push -u origin master (first time)`
+`git push -u origin master (first time)`  
 `git push origin master (later)` 
 
 ## *Function 2: version control* 
