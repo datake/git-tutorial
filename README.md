@@ -9,8 +9,8 @@ This is a tutorial to learn the basic commands of git. Three functions of git an
 ###### 1. enter spefic folder to git
 `cd *** `
 ###### 2. set the user information
-`git config –-global user.name 'datake'`  
-`git config –-global user.email 'ajksunke@foxmail.com'`
+`git config --global user.name 'datake'`  
+`git config --global user.email 'ajksunke@foxmail.com'`
 ###### 3. tell git you want to manage current folder 
 `git init` 
 ###### 4. add files to Repository(.git) into "staged" status
