@@ -6,9 +6,10 @@ This is a tutorial to learn the basic commands of git. Three functions of git an
 3. branch management  
 
 ## *Function 1: remote repository* 
-###### 1. enter spefic folder to git
-`cd *** `
-###### 2. set the user information
+###### 1. create reposition without README.md
+###### 2. contruct README.md in your file
+`echo "# StableAA" >> README.md`
+###### (2. set the user information)
 `git config --global user.name 'datake'`  
 `git config --global user.email 'ajksunke@foxmail.com'`
 ###### 3. tell git you want to manage current folder 
@@ -19,11 +20,13 @@ This is a tutorial to learn the basic commands of git. Three functions of git an
 `git commit -m "log information, e.g., first commit"`
 ###### 6. connect with your repository, where origin is the default repository name
 `git remote add origin 'repository address'`
-###### 7. add README.md in your folder, if there already exists a README.md in your repository
-`git pull --rebase origin master`
+###### 7. set the branch main
+git branch -M main
+###### (7. add README.md in your folder, if there already exists a README.md in your repository)
+`git pull --rebase origin main`
 ###### 8. push codes to github, master is our default first branch
-`git push -u origin master (first time)`  
-`git push origin master (later)` 
+`git push -u origin main (first time)`  
+`git push origin main (later)` 
 
 ## *Function 2: version control* 
 ###### 1. check the status of current folder (unmodified -> modified -> stages -> unmodified)
